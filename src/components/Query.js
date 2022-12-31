@@ -40,9 +40,9 @@ function Query() {
             <div class="bg-1"></div>
             <div class="bg-2"></div>
         </div>
-        <div class="about-container">
+        <div class="about-container">;
             <form onSubmit={save} className="form-custom">
-                <h3 >FILL THE FORM</h3>
+                <h3 >FILL THE FORM</h3>()
                 <input type="text" id="name" placeholder="Enter Name" required onChange={hName} className="input-style"/>
                 <input type="text" id="pname" placeholder="Enter Product Name" required onChange={hCollege} className="input-style"/>
                 <input type="text" id="phone" placeholder="Enter Phone Number" required onChange={hPhone} className="input-style"/>
@@ -58,3 +58,4 @@ function Query() {
 export default Query;
 
 // style={{textAlign:"left"}}
+
